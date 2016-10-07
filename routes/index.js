@@ -7,28 +7,28 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'bCrypt -- Select operation' });
 });
 
-/* GET Encrypt page. */
-router.get('/encrypt', function(req, res, next) {
-  res.render('encrypt', { title: 'bCrypt -- Encrypt' });
+/* GET Hash page. */
+router.get('/hash', function(req, res, next) {
+  res.render('hash', { title: 'bCrypt -- Hash' });
 });
 
-/* POST Encrypt page */
-router.post('/encrypt', function(req, res, next){
+/* POST Hash page */
+router.post('/hash', function(req, res, next){
   var sess = req.session;
   sess.result = bCrypt.hashSync(req.body.text, bCrypt.genSaltSync(8), null);
   res.redirect('/result?result=' + sess.result);
 });
 
-/* GET Decrypt page. */
-router.get('/decrypt', function(req, res, next) {
-  res.render('decrypt', { title: 'bCrypt -- Hash Compare' });
+/* GET Compare Hash page. */
+router.get('/compare-hash', function(req, res, next) {
+  res.render('compare-hash', { title: 'bCrypt -- Hash Compare' });
 });
 
-/* POST Decrypt page. */
-router.post('/decrypt', function(req, res, next) {
+/* POST Compare Hash page. */
+router.post('/compare-hash', function(req, res, next) {
   var result = bCrypt.compareSync(req.body.text, req.body.hash);
   if (result === true){
-    res.redirect('/result?result=The%20matches%20the%20hash!');
+    res.redirect('/result?result=The%20text%20matches%20the%20hash!');
   }else{
     res.redirect('/result?result=The%20does%20not%20match%20the%20hash!');
   }
