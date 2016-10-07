@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Error <%= error.status %></title>
+    <title><%= title %></title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -18,12 +18,14 @@
     <![endif]-->
   </head>
   <body>
-    <div class='container'>
+    <div class='container '>
       <br>
       <div class="jumbotron">
-        <h1><%= message %></h1>
-        <h2><%= error.status %></h2>
-        <pre><%= error.stack %></pre>
+        <a href="/" class="btn btn-default">Back</a>
+        <center>
+          <h1>The result is:</h1>
+          <pre><%= result %></pre>
+        </center>
       </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
