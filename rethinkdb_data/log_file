@@ -1,0 +1,61 @@
+2016-11-17T00:57:32.628496591 0.005828s notice: Recursively removing directory /root/DEV/melon/node-bCrypt/rethinkdb_data/tmp
+2016-11-17T00:57:32.631044956 0.008375s notice: Initializing directory /root/DEV/melon/node-bCrypt/rethinkdb_data
+2016-11-17T00:57:32.631228897 0.008560s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/root/DEV/melon/node-bCrypt/rethinkdb_data' did not already exist or is empty.)
+2016-11-17T00:57:32.631312502 0.008643s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-11-17T00:57:32.633873286 0.011206s notice: Running on Linux 4.4.0-47-generic x86_64
+2016-11-17T00:57:32.633976720 0.011307s notice: Loading data from directory /root/DEV/melon/node-bCrypt/rethinkdb_data
+2016-11-17T00:57:32.650136940 0.027467s info: Automatically using cache size of 100 MB
+2016-11-17T00:57:32.650610068 0.027941s warn: Cache size does not leave much memory for server and query overhead (available memory: 367 MB).
+2016-11-17T00:57:32.650618878 0.027949s warn: Cache size is very low and may impact performance.
+2016-11-17T00:57:32.651978898 0.029310s notice: Listening for intracluster connections on port 29015
+2016-11-17T00:57:32.654345273 0.031676s notice: Listening for client driver connections on port 28015
+2016-11-17T00:57:32.654805246 0.032136s notice: Listening for administrative HTTP connections on port 8080
+2016-11-17T00:57:32.654808780 0.032139s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-11-17T00:57:32.654813205 0.032143s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-11-17T00:57:32.654815253 0.032145s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-11-17T00:57:32.654818513 0.032149s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-11-17T00:57:32.654821651 0.032152s notice: Server ready, "lon01_webhost_1478739954632_512mb_lon1_01_68t" 51bd2ade-60a4-478a-bbb5-a6649809cb5d
+2016-11-17T00:57:37.117645315 4.494976s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-11-17T00:57:37.117710601 4.495041s notice: Shutting down client connections...
+2016-11-17T00:57:37.117824684 4.495155s notice: All client connections closed.
+2016-11-17T00:57:37.117826954 4.495157s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-11-17T00:57:37.118371719 4.495702s notice: Storage engine shut down.
+2016-11-17T00:59:13.848798255 0.005274s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-11-17T00:59:13.851312369 0.007789s notice: Running on Linux 4.4.0-47-generic x86_64
+2016-11-17T00:59:13.851464516 0.007940s notice: Loading data from directory /root/DEV/melon/node-bCrypt/rethinkdb_data
+2016-11-17T00:59:13.859115422 0.015591s info: Automatically using cache size of 100 MB
+2016-11-17T00:59:13.859399194 0.015874s warn: Cache size does not leave much memory for server and query overhead (available memory: 353 MB).
+2016-11-17T00:59:13.859405229 0.015880s warn: Cache size is very low and may impact performance.
+2016-11-17T00:59:13.860445108 0.016920s notice: Listening for intracluster connections on port 29015
+2016-11-17T00:59:13.861596809 0.018072s notice: Listening for client driver connections on port 28015
+2016-11-17T00:59:13.861927975 0.018403s notice: Listening for administrative HTTP connections on port 8080
+2016-11-17T00:59:13.861930890 0.018406s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-11-17T00:59:13.861934678 0.018410s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-11-17T00:59:13.861936630 0.018412s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-11-17T00:59:13.861940313 0.018415s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-11-17T00:59:13.861943215 0.018418s notice: Server ready, "lon01_webhost_1478739954632_512mb_lon1_01_68t" 51bd2ade-60a4-478a-bbb5-a6649809cb5d
+2016-11-17T01:00:10.555267057 56.711743s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-11-17T01:00:10.555368368 56.711844s notice: Shutting down client connections...
+2016-11-17T01:00:10.555722707 56.712198s notice: All client connections closed.
+2016-11-17T01:00:10.555726100 56.712201s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-11-17T01:00:10.556416158 56.712892s notice: Storage engine shut down.
+2016-11-17T01:00:12.944577805 0.004820s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-11-17T01:00:12.947232910 0.007477s notice: Running on Linux 4.4.0-47-generic x86_64
+2016-11-17T01:00:12.947425413 0.007667s notice: Loading data from directory /root/DEV/melon/node-bCrypt/rethinkdb_data
+2016-11-17T01:00:12.954549647 0.014791s info: Automatically using cache size of 100 MB
+2016-11-17T01:00:12.954733950 0.014976s warn: Cache size does not leave much memory for server and query overhead (available memory: 356 MB).
+2016-11-17T01:00:12.954739084 0.014980s warn: Cache size is very low and may impact performance.
+2016-11-17T01:00:12.970762642 0.031005s notice: Listening for intracluster connections on port 29015
+2016-11-17T01:00:12.972145437 0.032387s notice: Listening for client driver connections on port 28015
+2016-11-17T01:00:12.972502267 0.032744s notice: Listening for administrative HTTP connections on port 8080
+2016-11-17T01:00:12.973323399 0.033565s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 10.16.0.6, 139.59.163.245, ::1, fe80::a0fd:dfff:fe21:5b29%2
+2016-11-17T01:00:12.973883585 0.034125s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 10.16.0.6, 139.59.163.245, ::1, fe80::a0fd:dfff:fe21:5b29%2
+2016-11-17T01:00:12.974272817 0.034514s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 10.16.0.6, 139.59.163.245, ::1, fe80::a0fd:dfff:fe21:5b29%2
+2016-11-17T01:00:12.974275537 0.034517s notice: Server ready, "lon01_webhost_1478739954632_512mb_lon1_01_68t" 51bd2ade-60a4-478a-bbb5-a6649809cb5d
+2016-11-17T01:00:31.182991391 18.243233s info: Table 2aa11513-a160-4531-917d-ca3f8fb919f5: Starting a new Raft election for term 1.
+2016-11-17T01:00:31.183965623 18.244207s info: Table 2aa11513-a160-4531-917d-ca3f8fb919f5: Added replica on this server.
+2016-11-17T01:00:31.184921146 18.245163s info: Table 2aa11513-a160-4531-917d-ca3f8fb919f5: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-17T01:39:37.594934742 2364.655178s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2016-11-17T01:39:57.426892410 2384.487135s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2016-11-17T01:40:01.787008086 2388.847250s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2016-11-17T01:40:30.269675684 2417.329919s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.

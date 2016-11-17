@@ -34,7 +34,7 @@
               <form action="/hash" method="post">
                 <div class="form-group">
                   <label for="Text to check"></label>
-                  <input type="text" class="form-control" name="text" placeholder="Text to hash">
+                  <input type="text" class="form-control" name="text" autocomplete="off" placeholder="Text to hash">
                   <br>
                   <button type="submit" class="btn btn-default">Submit</button>
                 </div>
@@ -49,8 +49,8 @@
             <div class="container">
               <form action="/compare-hash" method="post">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="text" placeholder="Text to compare">
-                  <input type="text" class="form-control" name="hash" placeholder="Hash to compare to">
+                  <input type="text" class="form-control" name="text" autocomplete="off" placeholder="Text to compare">
+                  <input type="text" class="form-control" name="hash" autocomplete="off" placeholder="Hash to compare to">
                   <br>
                   <button type="submit" class="btn btn-default">Submit</button>
                 </div>
@@ -64,7 +64,7 @@
         <div class="jumbotron">
           <center>
             <h1>Result</h1>
-            <pre id="result">Nothing hashed/compared</pre>
+            <pre id="result"><% if (result) { %> <%= result %> <% }else{ %> ... waiting ... <% } %></pre>
           </center>
         </div>
       </div>
