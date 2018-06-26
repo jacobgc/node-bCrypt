@@ -12,7 +12,7 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.7",
     "ejs": "~2.5.5",
-    "express": "~4.15.2",
+    "express": "~4.16.0",
     "express-session": "^1.14.2",
     "express-session-rethinkdb": "^0.4.1",
     "morgan": "~1.7.0",
